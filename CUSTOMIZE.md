@@ -10,4 +10,4 @@
 打开 `index.html`，找到：
 
 ```html
-<title>人类失败了 | CS Student Portfolio</title>
+<title>rlsbl | CS Student Portfolio</title>
