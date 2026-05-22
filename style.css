@@ -285,6 +285,10 @@ footer {
     grid-template-columns: 1fr;
     gap: 8px;
     }
+    
+    .about-grid {
+    grid-template-columns: 1fr;
+    }
 }
 
 .back-to-top {
@@ -368,4 +372,56 @@ footer {
 
 .timeline-item p {
     color: #cbd5e1;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.skill-card {
+    padding: 20px;
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.skill-card:hover {
+    transform: translateY(-4px);
+    border-color: #38bdf8;
+}
+
+.skill-card h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.skill-card p {
+    color: #cbd5e1;
+    font-size: 15px;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.about-box {
+    padding: 20px;
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 12px;
+}
+
+.about-box h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.about-box p {
+    color: #cbd5e1;
+    font-size: 15px;
 }
