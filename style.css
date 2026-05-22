@@ -267,3 +267,34 @@ footer {
 .back-to-top:hover {
     background: #0ea5e9;
 }
+
+.project-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+}
+
+.project-links a {
+    color: #020617;
+    background: #38bdf8;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.project-links a:hover {
+    background: #0ea5e9;
+    transform: translateY(-2px);
+}
+
+.disabled-link {
+    color: #94a3b8;
+    background: #1e293b;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+}
