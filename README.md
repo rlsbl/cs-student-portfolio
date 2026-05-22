@@ -27,3 +27,9 @@ CS Portfolio Student/
 ├── style.css
 ├── script.js
 └── README.md
+
+## 在线预览
+
+点击这里查看网页：
+
+https://rlsbl.github.io/cs-student-portfolio/
