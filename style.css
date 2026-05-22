@@ -276,6 +276,10 @@ footer {
     .skills {
         justify-content: center;
     }
+
+    .hero-tags {
+    justify-content: center;
+    }
 }
 
 .back-to-top {
